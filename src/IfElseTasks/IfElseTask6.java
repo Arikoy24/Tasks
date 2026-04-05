@@ -4,11 +4,14 @@ package IfElseTasks;
 //Задание: Создайте программу, которая присваивает буквенную оценку (например, A, B, C, D, F) на основе числового результата.
 //Подсказка: Используйте последовательность операторов if-elif-else для проверки диапазонов (например, 90–100 для A, 80–89 для B и т.д.).
 
+import java.util.Scanner;
 
 public class IfElseTask6 {
     public static void main(String[] args) {
 
-        int grade = 150;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your score: ");
+        int grade = scanner.nextInt();
         char letter;
 
         if (grade < 0 || grade > 100) {
