@@ -14,17 +14,29 @@ import java.util.Scanner;
 
 
 public class StringTask1 {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a line you would like to compress: ");
-
         String input = scanner.nextLine();
+
+        if(input.isEmpty()){
+            System.out.println("You should enter a line to compress!");
+            return;
+        }
+
+        String result = compress(input);
+        System.out.println(result);
+
+    }
+        public static String compress(String input){
+
         StringBuilder sb = new StringBuilder();
+
         char current;
         char next;
         int count = 1;
-
 
         for (int i = 0; i < input.length() - 1; i++) {
             current = input.charAt(i);
@@ -47,7 +59,7 @@ public class StringTask1 {
             sb.append(count);
         }
 
-        System.out.println(sb.toString());
+        return sb.toString();
 
     }
 }
