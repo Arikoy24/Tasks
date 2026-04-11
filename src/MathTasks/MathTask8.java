@@ -18,6 +18,18 @@ public class MathTask8 {
     }
 
 
+//    public class Converter {
+//
+//        public static double kmToMiles(double km) {
+//            return km * 0.621371;
+//        }
+//
+//        public static double milesToKm(double miles) {
+//            return miles * 1.60934;
+//        }
+//    }
+
+
     public static double kmToMiles(double km) {
 
         double miles = km * 0.621371192;
