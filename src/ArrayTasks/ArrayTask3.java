@@ -4,7 +4,6 @@ package ArrayTasks;
 //Напишите программу, которая находит среднее арифметическое значений элементов массива.
 
 
-
 public class ArrayTask3 {
 
     public static void main(String[] args){

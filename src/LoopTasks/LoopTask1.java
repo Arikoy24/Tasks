@@ -1,4 +1,6 @@
-package LoopTasks;//Вывод чисел от 1 до 10.
+package LoopTasks;
+
+//Вывод чисел от 1 до 10.
 //Напишите программу, которая выводит числа от 1 до 10, используя цикл for.
 
 public class LoopTask1 {

@@ -3,7 +3,6 @@ package ArrayTasks;
 //Нахождение минимального элемента.
 //Создайте программу для поиска минимального значения в заданном массиве чисел.
 
-import java.util.Random;
 
 public class ArrayTask4 {
 
